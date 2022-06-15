@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Crome 
+Comment=Crome P2P Cryptocurrency
+Comment[fr]=Crome, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Crome, eşten eşe kriptografik sanal para birimi
+Exec=crome-qt %u
+Terminal=false
+Type=Application
+Icon=pivx128
+MimeType=x-scheme-handler/crome;
+Categories=Office;Finance;
+StartupWMClass=crome-qt
