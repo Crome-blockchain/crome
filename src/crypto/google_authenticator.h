@@ -1,9 +1,9 @@
-// Copyright (c) 2022 The Crome Core Developers
+// Copyright (c) 2022 The CROME Core Developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Crome_CRYPTO_GOOGLE_AUTHENTICATOR_H
-#define Crome_CRYPTO_GOOGLE_AUTHENTICATOR_H
+#ifndef CROME_CRYPTO_GOOGLE_AUTHENTICATOR_H
+#define CROME_CRYPTO_GOOGLE_AUTHENTICATOR_H
 
 #include <cstdint>
 
@@ -22,4 +22,4 @@ public:
     int GeneratePin();
 };
 
-#endif // Crome_CRYPTO_GOOGLE_AUTHENTICATOR_H
+#endif // CROME_CRYPTO_GOOGLE_AUTHENTICATOR_H

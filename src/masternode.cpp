@@ -335,13 +335,13 @@ CAmount CMasternode::GetMasternodeNodeCollateral(int nHeight)
     if (nHeight >  500000) return 450000 * COIN;
     if (nHeight >  400500) return 450000 * COIN;
     if (nHeight >  400000) return 450000 * COIN;
-    if (nHeight >  300000) return 300000 * COIN;
-    if (nHeight >  200500) return 300000 * COIN;
-    if (nHeight >  200000) return 300000 * COIN;
-    if (nHeight >  100500) return 200000 * COIN;
-    if (nHeight >  100000) return 200000 * COIN;
-    if (nHeight >    1500) return 100000 * COIN;
-    if (nHeight >    1000) return 100000 * COIN;
+    if (nHeight >  300000) return 250000 * COIN;
+    if (nHeight >  200500) return 250000 * COIN;
+    if (nHeight >  200000) return 250000 * COIN;
+    if (nHeight >  100500) return 100000 * COIN;
+    if (nHeight >  100000) return 100000 * COIN;
+    if (nHeight >    1500) return 50000 * COIN;
+    if (nHeight >    1000) return 50000 * COIN;
     if (nHeight >       0) return 0 * COIN;
          
     return 0;
@@ -363,15 +363,15 @@ CAmount CMasternode::GetBlockValue(int nHeight)
     if (nHeight >  500000) return 3200 * COIN;
     if (nHeight >  400500) return 3000 * COIN;
     if (nHeight >  400000) return 0.00 * COIN;
-    if (nHeight >  300000) return 2200 * COIN;
-    if (nHeight >  200500) return 2000 * COIN;
+    if (nHeight >  300000) return 2000 * COIN;
+    if (nHeight >  200500) return 1800 * COIN;
     if (nHeight >  200000) return 0.00 * COIN;
-    if (nHeight >  100500) return 1000 * COIN;
+    if (nHeight >  100500) return 600 * COIN;
     if (nHeight >  100000) return 0.00 * COIN;
-    if (nHeight >    1500) return 350  * COIN;
+    if (nHeight >    1500) return 200 * COIN;
     if (nHeight >    1000) return 0.00 * COIN;
-    if (nHeight >       1) return 500  * COIN;    // POW BLOCK REWARD   
-    if (nHeight >       0) return 1000 * COIN;
+    if (nHeight >       1) return 450  * COIN;    // POW BLOCK REWARD   
+    if (nHeight >       0) return 1000000 * COIN;
 
     return 0;
 }
@@ -392,12 +392,12 @@ CAmount CMasternode::GetMasternodePayment(int nHeight)
     if (nHeight >  500000) return 2800 * COIN;
     if (nHeight >  400500) return 2700 * COIN;
     if (nHeight >  400000) return 0.00 * COIN;
-    if (nHeight >  300000) return 2000 * COIN;
-    if (nHeight >  200500) return 1900 * COIN;
+    if (nHeight >  300000) return 1800 * COIN;
+    if (nHeight >  200500) return 1600 * COIN;
     if (nHeight >  200000) return 0.00 * COIN;
-    if (nHeight >  100500) return 850 * COIN;
+    if (nHeight >  100500) return 500  * COIN;
     if (nHeight >  100000) return 0.00 * COIN;
-    if (nHeight >    1500) return 260  * COIN;
+    if (nHeight >    1500) return 160  * COIN;
 
     return 0;
 }
