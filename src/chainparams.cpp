@@ -117,9 +117,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xbba8b061d9d5e21c452d2c2220b07465de991c3f37c86b1143ede4e87f70cbe9"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
-        consensus.powLimit   = ~UINT256_ZERO >> 14;
-        consensus.posLimitV1 = ~UINT256_ZERO >> 14;
-        consensus.posLimitV2 = ~UINT256_ZERO >> 14;
+        consensus.powLimit   = ~UINT256_ZERO >> 10;
+        consensus.posLimitV1 = ~UINT256_ZERO >> 10;
+        consensus.posLimitV2 = ~UINT256_ZERO >> 10;
         consensus.nBudgetCycleBlocks = 30 * 24 * 60;       // approx. 1 every 30 days
         consensus.nBudgetFeeConfirmations = 6;      // Number of confirmations for the finalization fee
         consensus.nCoinbaseMaturity = 100;
